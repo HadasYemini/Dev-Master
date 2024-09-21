@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 100">
+  <style>
+    .sans-serif { font-family: Arial, sans-serif; }
+  </style>
+  
+  <!-- רקע -->
+  <rect x="0" y="0" width="300" height="100" fill="#FFFFFF" />
+  
+  <!-- עיצוב טבעת -->
+  <circle cx="50" cy="50" r="35" fill="none" stroke="#FFB6C1" stroke-width="6" />
+  <circle cx="50" cy="50" r="25" fill="#FFC0CB" />
+  
+  <!-- קווים דקורטיביים -->
+  <line x1="100" y1="20" x2="290" y2="20" stroke="#FFB6C1" stroke-width="2" />
+  <line x1="100" y1="80" x2="290" y2="80" stroke="#FFB6C1" stroke-width="2" />
+  
+  <!-- טקסט הלוגו -->
+  <text x="190" y="45" class="sans-serif" font-size="30" font-weight="bold" fill="#FF69B4" text-anchor="middle">TOP</text>
+  <text x="190" y="70" class="sans-serif" font-size="20" fill="#C71585" text-anchor="middle">accessories</text>
+  
+  <!-- אייקונים של אביזרים -->
+  <!-- תיק יד גדול יותר -->
+  <path d="M240,35 h24 v25 h-24 v-25 m-5,0 v-8 h34 v8" fill="none" stroke="#FF69B4" stroke-width="2" />
+  
+  <!-- שעון יד -->
+  <circle cx="285" cy="47" r="10" fill="none" stroke="#FF69B4" stroke-width="2" />
+  <line x1="285" y1="47" x2="285" y2="40" stroke="#FF69B4" stroke-width="1" />
+  <line x1="285" y1="47" x2="290" y2="47" stroke="#FF69B4" stroke-width="1" />
+  
+  <!-- משקפי שמש -->
+  <path d="M245,70 q5,-5 10,0 m0,0 q5,5 10,0 m-20,0 q-3,7 3,7 q6,0 3,-7 m14,0 q-3,7 3,7 q6,0 3,-7" fill="none" stroke="#FF69B4" stroke-width="2" />
+  
+  <!-- עגיל -->
+  <circle cx="285" cy="75" r="3" fill="#FF69B4" />
+  <path d="M285,78 q-2,4 0,6 q2,-2 0,-6" fill="none" stroke="#FF69B4" stroke-width="1" />
+</svg>
