@@ -19,12 +19,13 @@ const useProjects = (): Project[] => {
     {
       title: t.projects.iTalam.title, 
       description: t.projects.iTalam.description,
-      image: '/assets/italam.svg',
+      image: '/assets/italam.png',
       video: [
         { src: '/assets/italam-classA.mp4', title: 'iTalam-ClassA' },
         { src: '/assets/italam-classB.mp4', title: 'iTalam-ClassB' },
         { src: '/assets/italam-classC.mp4', title: 'iTalam-ClassC' },
         { src: '/assets/italam-classD.mp4', title: 'iTalam-ClassD' },
+        { src: '/assets/italam-backend.mp4', title: 'iTalam-Backend' },
       ],
       technologies: ["JavaScript", "Html", "Css", "Jquery", "Phaser"]
     },
