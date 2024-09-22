@@ -2,19 +2,61 @@ import { createContext, useState, useEffect, useContext, ReactNode } from 'react
 import { translations } from '../constans/translation'; 
 
 interface TranslationData {
+  home : {
+    title : string;
+    description : string;
+    experience : {
+      title :string;
+      description1 : string;
+      description2 : string;
+    };
+    skills : {
+      title : string;
+      technologies : string;
+    };
+    additionalSkills : {
+      title :string;
+      creativity : string;
+      skills : string;
+    };
+  };
   navbar: {
     home: string;
     projects: string;
     contact: string;
     languageToggle: string;
   };
+  projects: {
+    title: string;
+    done:string;
+    iTalam: {
+      title: string;
+      description: string[];
+    };
+    BizManage: {
+      title: string;
+      description: string[];
+    };
+    TopAccessories: {
+      title: string;
+      description: string[];
+    };
+    KolelOritah: {
+      title: string;
+      description: string[];
+    };
+    watchSite: string;
+    watchGitHub: string;
+    watchVideos: string;
+    technologies:string;
+  };
   contactIn: {
-    fullName: string;
+    title: string;
     email: string;
-    message: string;
-    submit: string;
     phone: string;
-    emailAddress: string;
+    address: string;
+    theAddress:string;
+    linkedIn: string;
   };
 }
 
