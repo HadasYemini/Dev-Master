@@ -5,12 +5,12 @@ export const translations = {
             description: "Software developer specializing in React and Tailwind CSS, with extensive experience in JavaScript, HTML, CSS, and jQuery. I bring creativity and innovation to every project, utilizing advanced technologies.",
             experience: {
               title: "Professional Experience",
-              description1: "Front End developer with over 10 years of experience building impressive projects in the WEB field.",
+              description1: "Front End developer with over 10 years of experience building projects in the WEB field.",
               description2: "Expert in JavaScript, HTML5, CSS, jQuery, and other languages. Experienced in UI/UX design and creating intelligent and innovative user interfaces."
             },
             skills: {
               title: "Professional Skills",
-              technologies: "Advanced technology skills: JavaScript, HTML5, CSS, jQuery, React, Node.js, Tailwind, TypeScript, XML, JSON, Jira, Git, Figma, Windows, MacOS."
+              technologies: "Advanced technology skills: JavaScript, HTML5, CSS, jQuery, React, Node.js, Tailwind, TypeScript, MongoDb, XML, JSON, Jira, Git, Figma, Windows, MacOS."
             },
             additionalSkills: {
               title: "Additional Abilities",
@@ -74,12 +74,12 @@ export const translations = {
             description: "מפתחת תוכנה עם התמחות ב-React ו-Tailwind CSS, עם ניסיון רב ב-JavaScript, HTML, CSS ו-jQuery. אני מביאה יצירתיות וחדשנות לכל פרויקט, תוך שימוש בטכנולוגיות מתקדמות.",
             experience: {
               title: "ניסיון מקצועי",
-              description1: "מפתחת Front End עם ניסיון של מעל 10 שנים בבניית פרויקטים מרשימים בתחום ה-WEB.",
+              description1: "מפתחת Front End עם ניסיון של מעל 10 שנים בבניית פרויקטים בתחום ה-WEB.",
               description2: "מומחית ב-JavaScript, HTML5, CSS, jQuery ושפות נוספות. ניסיון בעיצוב UI/UX והתאמת ממשקי משתמש חכמים וחדשניים."
             },
             skills: {
               title: "כישורים מקצועיים",
-              technologies: "כישורי טכנולוגיה מתקדמים: JavaScript, HTML5, CSS, jQuery, React, Node.js, Tailwind, TypeScript, XML, JSON, Jira, Git, Figma, Windows, MacOS."
+              technologies: "כישורי טכנולוגיה מתקדמים: JavaScript, HTML5, CSS, jQuery, React, Node.js, Tailwind, MongoDb, TypeScript, XML, JSON, Jira, Git, Figma, Windows, MacOS."
             },
             additionalSkills: {
               title: "יכולות נוספות",
