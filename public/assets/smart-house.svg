@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- House outline -->
+  <path d="M100 20 L20 100 L40 100 L40 180 L160 180 L160 100 L180 100 Z" fill="#2C3E50" />
+  
+  <!-- Window -->
+  <rect x="70" y="120" width="60" height="40" fill="#ECF0F1" />
+  
+  <!-- S letter -->
+  <path d="M70 50 Q90 30 110 50 T150 70 Q130 90 110 70 T70 50" fill="#E74C3C" stroke="#E74C3C" stroke-width="5" />
+  
+  <!-- M letter -->
+  <path d="M50 130 L70 90 L90 130 L110 90 L130 130" fill="none" stroke="#3498DB" stroke-width="5" />
+  
+  <!-- Smart home icons -->
+  <circle cx="140" cy="50" r="10" fill="#F39C12" />
+  <rect x="135" y="45" width="10" height="10" fill="#2C3E50" />
+</svg>

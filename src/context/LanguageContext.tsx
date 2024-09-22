@@ -1,6 +1,11 @@
 import { createContext, useState, useEffect, useContext, ReactNode } from 'react';
 import { translations } from '../constans/translation'; 
 
+interface ProjectData {
+  title: string;
+  description: string[];
+}
+
 interface TranslationData {
   home : {
     title : string;
@@ -29,26 +34,12 @@ interface TranslationData {
   projects: {
     title: string;
     done:string;
-    iTalam: {
-      title: string;
-      description: string[];
-    };
-    BizManage: {
-      title: string;
-      description: string[];
-    };
-    TopAccessories: {
-      title: string;
-      description: string[];
-    };
-    KolelOritah: {
-      title: string;
-      description: string[];
-    };
-    FootBall : {
-      title: string;
-      description: string[];
-    };
+    iTalam: ProjectData;
+    BizManage: ProjectData;
+    TopAccessories: ProjectData;
+    KolelOritah: ProjectData;
+    FootBall : ProjectData;
+    SmartHouse : ProjectData;
     watchSite: string;
     watchGitHub: string;
     watchVideos: string;

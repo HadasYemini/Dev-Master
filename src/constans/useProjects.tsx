@@ -47,6 +47,15 @@ const useProjects = (): Project[] => {
       technologies: ["React","Tailwind"],
     },
     {
+      title: t.projects.SmartHouse.title, 
+      description: t.projects.SmartHouse.description,
+      image: '/assets/smart-house.svg',
+      video: [],
+      technologies: ["React", "Node.js", "MongoDB","Tailwind"],
+      githubLink:"https://github.com/HadasYemini/smart-house.git",
+      githubLinkBack:"https://github.com/HadasYemini/smart-house-backend.git"
+    },
+    {
       title: t.projects.BizManage.title, 
       description: t.projects.BizManage.description,
       image: '/assets/biz-manage.svg',

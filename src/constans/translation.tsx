@@ -50,7 +50,14 @@ export const translations = {
             FootBall : {
                 title : "Football Club SvCollage",
                 description : ["Sports team management.","An application that allows you to add players, update and save statistics on players."]
-            }
+            },
+            SmartHouse: {
+                "title": "Smart Home",
+                "description": [
+                  "A smart home is a house equipped with advanced technologies that allow remote control",
+                  "of various systems such as lighting, air conditioning, heating, security, and even household appliances."
+                ]
+              }
         },
         contactIn: {
             title: "Contact methods",
@@ -112,6 +119,10 @@ export const translations = {
             FootBall: {
                 title:"מועדון כדוררגל - SvCollage",
                 description:["ניהול קבוצת ספורט.","אפלקציה המאפשרת להוסיף שחקנים, לעדכן ולשמור סטטיסטיקות על שחקנים."]
+            },
+            SmartHouse: {
+                title: "בית חכם",
+                description: ["בית חכם הוא בית המצויד בטכנולוגיות מתקדמות המאפשרות שליטה מרחוק","על מערכות שונות כגון תאורה, מיזוג אוויר, חימום, אבטחה, ואפילו מכשירי חשמל."]
             }
         },
         contactIn: {
