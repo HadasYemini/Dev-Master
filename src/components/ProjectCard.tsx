@@ -7,6 +7,7 @@ interface Project {
   description: Array<string>;
   siteLink?: string;
   githubLink?: string;
+  githubLinkBack?: string;
   video?: Array<{ src: string; title: string }>;
   technologies:Array<string>;
   done?:string;
@@ -44,6 +45,11 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           {project.githubLink && (
             <Link to={project.githubLink} target="_blank" rel="noopener noreferrer" className="text-teal-500 hover:underline text-lg font-semibold mt-2">
             {t.projects.watchGitHub} 
+          </Link>
+          )}
+          {project.githubLinkBack && (
+            <Link to={project.githubLinkBack} target="_blank" rel="noopener noreferrer" className="text-teal-500 hover:underline text-lg font-semibold mt-2">
+            {t.projects.watchGitHub} - Back 
           </Link>
           )}
           {project.video && project.video.length > 0 && (
