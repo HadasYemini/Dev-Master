@@ -46,6 +46,10 @@ export const translations = {
             KolelOritah: {
                 title: "Kolel Oritah",
                 description: ["A religious community site...", "Supports educational resources..."],
+            },
+            FootBall : {
+                title : "Football Club SvCollage",
+                description : ["Sports team management.","An application that allows you to add players, update and save statistics on players."]
             }
         },
         contactIn: {
@@ -104,6 +108,10 @@ export const translations = {
             KolelOritah: {
                 title: "כולל אורייתא",
                 description: ["אתר קהילתי דתי...", "תומך במשאבים חינוכיים..."],
+            },
+            FootBall: {
+                title:"מועדון כדוררגל - SvCollage",
+                description:["ניהול קבוצת ספורט.","אפלקציה המאפשרת להוסיף שחקנים, לעדכן ולשמור סטטיסטיקות על שחקנים."]
             }
         },
         contactIn: {

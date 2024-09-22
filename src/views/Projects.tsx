@@ -5,7 +5,7 @@ import { useLanguage } from '../context/LanguageContext';
 
 export default function Projects() {
   const projects = useProjects(); 
-  const { t } = useLanguage(); // שליפת התרגום לפי השפה הנוכחית
+  const { t } = useLanguage(); 
 
   return (
     <div id="projects" className="py-16 bg-gray-100">

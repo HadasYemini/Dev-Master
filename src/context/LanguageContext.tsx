@@ -45,6 +45,10 @@ interface TranslationData {
       title: string;
       description: string[];
     };
+    FootBall : {
+      title: string;
+      description: string[];
+    };
     watchSite: string;
     watchGitHub: string;
     watchVideos: string;

@@ -13,7 +13,7 @@ interface Project {
 }
 
 const useProjects = (): Project[] => {
-  const { t } = useLanguage(); // שליפת התרגום לפי השפה הנוכחית
+  const { t } = useLanguage(); 
 
   return [
     {
@@ -37,6 +37,14 @@ const useProjects = (): Project[] => {
         { src: '../assets/top-accessories.mp4', title: 'Top-Accessories' },
       ],
       technologies: ["Node.js", "MongoDB","Css"]
+    },
+    {
+      title: t.projects.FootBall.title, 
+      description: t.projects.FootBall.description,
+      image: '/assets/football.svg',
+      siteLink: 'https://football-manage.netlify.app/',
+      video: [],
+      technologies: ["React","Tailwind"],
     },
     {
       title: t.projects.BizManage.title, 
